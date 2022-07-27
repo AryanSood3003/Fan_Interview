@@ -2,11 +2,11 @@
 class Main extends Test {
     private int currentState;
     private boolean direction_rev;
-    public Main() {
+    public Main() {//Constructor to initilaize variables
         currentState = 0;
         direction_rev=true;
     }
-
+// Method invoked when either chain is pulled
     public void pull(int n ) {
         if(n==1)
         {
